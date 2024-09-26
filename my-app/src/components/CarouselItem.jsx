@@ -1,7 +1,6 @@
 function CarouselItem() {
     return (
       <div className='flex flex-row justify-center items-start gap-4'>
-        {/* الكارد الأول */}
         <div className='flex flex-col justify-start items-start m-10 p-10 bg-white p-4 border border-gray-300 rounded shadow-md w-5/12 max-sm:w-full'>
           <h2 className='text-2xl font-bold text-left'>WOODEN MINIMISTIC CHAIRS</h2>
           <p className='text-lg text-left'>SALE UP TO</p>
@@ -16,7 +15,6 @@ function CarouselItem() {
           />
         </div>
   
-        {/* الكارد الثاني */}
         <div className='flex flex-col items-center bg-white p-4 border border-gray-300 rounded shadow-md w-5/12 max-sm:w-full mt-6'>
           <h2 className='text-2xl font-bold text-center'>WOODEN MINIMISTIC CHAIRS</h2>
           <p className='text-lg text-center'>SALE UP TO</p>
@@ -25,7 +23,7 @@ function CarouselItem() {
             Shop Now
           </button>
           <img 
-            className='w-[50%] max-sm:w-[70%] object-cover rounded mt-4'  // تم تقليل عرض الصورة
+            className='w-[50%] max-sm:w-[70%] object-cover rounded mt-4'  
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUCRYnsUFOspBAE3uOTrFX7c6j9PqlM2WhKA&s" 
             alt="Wooden Chairs"
           />
